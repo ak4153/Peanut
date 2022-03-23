@@ -3,3 +3,4 @@
 
 <p>OOP approach, Classes, Inheritance, Interfaces, Generics, Types, Abstract Classes</p>
 <h5>Demo : <a href="https://greasy-peanut.surge.sh/">CLICK</a></h5>
+<img src="./assets/Untitled.png" alt="peanut-demo-image">
