@@ -1,8 +1,8 @@
-import Component from './component.js';
-import validate from '../util/validation.js';
-import { ProjectInputLogger, BindThis } from '../decorators/bindthis.js';
-import { projectState } from '../state/project-state.js';
-import { ProjectStatus } from '../models/project-model.js';
+import Component from './component';
+import validate from '../util/validation';
+import { ProjectInputLogger, BindThis } from '../decorators/bindthis';
+import { projectState } from '../state/project-state';
+import { ProjectStatus } from '../models/project-model';
 
 @ProjectInputLogger('logging ProjectInput...')
 export default class ProjectInput extends Component<HTMLElement, HTMLElement> {

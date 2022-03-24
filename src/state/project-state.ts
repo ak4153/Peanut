@@ -1,6 +1,6 @@
-import { BindThis } from '../decorators/bindthis.js';
-import { ProjectStatus } from '../models/project-model.js';
-import { Project } from '../models/project-model.js';
+import { BindThis } from '../decorators/bindthis';
+import { ProjectStatus } from '../models/project-model';
+import { Project } from '../models/project-model';
 type Listner<T> = (items: T[]) => void;
 
 abstract class State<T> {

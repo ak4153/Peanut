@@ -1,7 +1,7 @@
-import Component from './component.js';
-import { Draggable } from '../models/drag-drop-interfaces.js';
-import { Project } from '../models/project-model.js';
-import { BindThis } from '../decorators/bindthis.js';
+import Component from './component';
+import { Draggable } from '../models/drag-drop-interfaces';
+import { Project } from '../models/project-model';
+import { BindThis } from '../decorators/bindthis';
 export class ProjectItem
   extends Component<HTMLElement, HTMLElement>
   implements Draggable
